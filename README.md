@@ -6,7 +6,7 @@ Aspiring SOC Analyst with a strong interest in Cybersecurity and Blue Teaming.
 
 ## About Me
 - Computer Science student at Taif University  
-- cybersecurity training program at KAUST Academy
+- Cybersecurity training program at KAUST Academy
 - Focused on Threat Detection, Log Analysis, and Incident Response  
 - Building a SOC portfolio through hands-on labs and incident reports  
 
