@@ -23,9 +23,13 @@ A suspicious email was identified targeting a user, attempting to deliver a mali
 ## Analysis
 
 The email looks suspicious.
+
 The IP address belongs to a hosting company, which attackers often use.
+
 Even though SPF and DMARC exist, this does not mean the email is safe.
+
 The attachment is the main problem. It looks like a PDF, but it is actually a CAB file. This is a trick to fool the user.
+
 The file hash check shows the file is malicious.
 
 ---
