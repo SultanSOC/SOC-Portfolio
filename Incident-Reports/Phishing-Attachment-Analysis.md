@@ -22,13 +22,11 @@ A suspicious email was identified targeting a user, attempting to deliver a mali
 
 ## Analysis
 
-The email exhibits multiple indicators of a phishing attack. The sender used a suspicious Reply-To address and an originating IP linked to a hosting provider (Hostwinds LLC), which is commonly abused for malicious activities.
-
-Although SPF and DMARC records were present, this does not guarantee legitimacy, as attackers can leverage legitimate email services or misconfigurations to bypass basic email authentication checks.
-
-The attachment is a key indicator of compromise. It appears to be a PDF file based on its name, but the actual file type is a CAB archive. This mismatch strongly suggests an attempt to deceive the recipient and bypass basic user suspicion.
-
-Further analysis using the file hash confirmed that the attachment is malicious, indicating a high likelihood of malware delivery if executed.
+The email looks suspicious.
+The IP address belongs to a hosting company, which attackers often use.
+Even though SPF and DMARC exist, this does not mean the email is safe.
+The attachment is the main problem. It looks like a PDF, but it is actually a CAB file. This is a trick to fool the user.
+The file hash check shows the file is malicious.
 
 ---
 
